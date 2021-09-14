@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+  <html lang="es"> <!--lang=lenguaje es=español en conjunto con utf-8 en=english  --> 
+  <head>
+    <meta charset="UTF-8" />    <!--codificación que soporta lenguaje español por los caracterer especiales acento,ñ,etc--> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Html</title>   <!--titulo de la pestaña--> 
+  </head>
+  <body>
+
+<H2>Inicios de creación de una página html</H2>   
+<p>He decido colocar lo poco que he aprendido en esta página a manera de práctica, así para futuras consultas ya tendré una guia</p><br>
+<dl>
+<dt>Doctype: </dt>
+<dd> se usa para definir la version del html a usar en este caso seria html5</dd><br>
+<dt>Significado del lang: </dt>
+  <dd> es el estilo del lenguaje que se va a utilizar en la página, por ejemplo: lang="es" (para español) lang="en" (para ingles)</dd><br>
+
+
+</dl>
+
+<hr>
+<h2><ins> Contenido del tag head: </ins></h2>
+<!-- el tag dl es utilizado para hacer una lista de definiciones y dentro de ella se coloca dt (a definir) y con el tag dd (la definición) -->
+<dl>
+    <dt>mata charset="utf-8": </dt>
+  <dd>Es la codificación utilizada para indicarle a la página que se usaran caracteres especiales como acentos, la letra ñ, etc. Y es importante tomar en cuenta el tipo de lenguaje definido al inicio (lang)</dd><br>
+<dt>tile:</dt>
+<dd> Se coloca dentro del head y es la que le coloca a la pestaña en el navegador un titulo</dd>
+</dl>
+<hr>
+    <!--esto es un comentario-->
+   <h1><ins>Estilo de texto</ins></h1>
+   <p> se usan los tag "b" y "strong" para colocar el texto en el estilo negrita, <br>Para hacer el texto con estilo cursiva se usa el tag "i"<br> texto como borrado se usa el tag "del" </p>
+    <!--¿como puedo colocar una etiqueta y mostrarla en el navegador?  -->
+   <p><b>Esto está en negrita <b> </p>
+    <p><strong>Esto también es negrita pero con el tag strong</strong></p>
+    <p><i>Esto es cursiva</i></p>
+    <p><del>Este texto es de borrado</del></p>
+    <p><small>Es un texto pequeño con el tag small</small></p>
+    <p><big>Es un texto con el tag big</big></p>
+<hr>
+    <h2 align="center"><ins>Estilos de Encabezados</ins> </h2>
+    
+    <!-- siendo h1 el estilo de mayor tamaño -->
+    <p>Para usar el encabezado hay que tomar en cuenta que son 6 maneras diferentes, siendo el h1 el texto más grande, todas tienen su tag de cierre. como por ejemplo: </p><br>
+    <h1>primer estilo con h1</h1>  
+  <h2>segundo estilo con h2</h2>
+    <h3>tercer estilo con h3</h3>
+    <h4>cuarto estilo con h4</h4>
+    <h5>quinto estilo con h5</h5>
+    <h6>sexto estilo con h6</h6>
+<hr>  
+    <h2 align="center" > <ins> Parráfos </ins></h2>
+    <p><small> al colocar un párrafo se le puede especificar el alineado con el atributo "align" y con el "valor" de center, left, right. dependiendo de lo que se quiera hacer, y para usar un texto ficticio se puede usar lorem30, el 30 es la cantidad de palabras a usar, como por ejemplo: </small> </p>
+    
+    <p align="center">
+      
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est eveniet ex
+        deleniti voluptatum dignissimos corrupti atque dolores quidem dolorum,
+        fuga iure tenetur delectus sit nulla vel nemo omnis iusto odit eaque
+        amet vero quae eum laudantium. Rem qui molestias mollitia enim debitis
+        commodi ratione iusto.
+      
+    </p><br><br>
+<hr>
+    <h2 align="center"><ins>Línea horizontal</ins></h2>
+    <p> para colocar una linea horizontal se usa el tag hr esta no tiene etiqueta de cierre, también se puede colocar dimensión como el ancho de la línea con el atributos width y centrado con el atributo align. como por ejemplo: <br> se ha creado una linea con las caracteristicas de ancho 50px y alineado a la derecha: </p>
+
+<hr width="50px" align="right" />
+<br>
+<br>
+<hr>
+<h2 align="center"><ins>Insertado de imagen</ins></h2><br>
+<p>Para colocar una imagen se debe usar el tag img, esta no tiene etiqueta de cierre y se le pueden colocar los siguientes parametros que definiré a continuación: <br> //<img src="imagen.jpg" alt="" height="20%" width="20%" >// 
+<!-- verificar como puedo colocar una etiqueta y mostrarla en el buscador -->
+<dl>
+  <dt>src:</dt>
+  <dd>Es la dirección o el nombre de la imagen a colocar</dd>
+</dl>
+
+
+</p>
+
+<img src="arbol.jpeg" height="10%" width="10%" border="1px" alt="arbol" />
+<img src="56d1c11d15fcf7e6c25799014d27b047.jpg" height="10%" width="10%" alt="marianyela en brazos">
+<img src="1586400213344.jpg" height="10%" width="10%" border="1px" alt="arbol" />
+<img src="IMG-20191017-WA0059.jpg " height="10%" width="10%" border="1px" alt="arbol" />
+<img src="IMG-20191017-WA0061.jpg " height="10%" width="10%" border="1px" alt="arbol" />
+<img src="IMG-20200320-WA0030.jpg" height="10%" width="10%" border="1px" alt="arbol" />
+
+
+<hr> <!--listas desordenadas -->
+<ul>
+  <li>Noel</li>
+  <li>Anyela</li>
+  <li>Marianyela</li>
+  <!-- enlaces -->
+  <li><a href="https://github.com/NoelTejeda" target="_blank" > Mi pagina en github </a></li> 
+</ul>
+
+<a href="http://www.google.com" target="_blank" >página google</a>
+
+<hr>
+   <H3>Integrantes:</H3>
+    <ol>     <!--listas ordenadas con numación -->
+        <li>Noel Tejeda 14.680.389</li>
+        <li>Jesús Romero 27.796.166</li>
+        <li>Kleber Cabezas 25.172.155</li>
+        <li>Jhoyver Lovera 24.523.858</li>
+    </ol>
+<hr>
+               <!-- Encabezados -->
+    <h1>Mi primer encabezado con h1</h1>
+    <h2>encabezado h2</h2>
+    <h3>encabezado h3</h3>
+    <h4>encabezado h4</h4>
+    <h5>encabezado h5</h5>
+    <h6>encabezado h6</h6>
+<hr>    
+  
+      <!-- parrafos= con lorem20 -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptate molestias vel dolorum repellat impedit, eum, ducimus magnam eligendi maiores dolores quo praesentium ad tenetur saepe ipsum illo dicta. Quos sapiente enim quibusdam, porro quia dolore illo sint omnis consequatur.
+    </p>
+  
+  </body>
+</html>
