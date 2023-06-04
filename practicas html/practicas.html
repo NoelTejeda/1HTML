@@ -1,201 +1,241 @@
 <!DOCTYPE html>
-  <html lang="es"> <!--lang=lenguaje es=español en conjunto con utf-8 en=english  --> 
-  <head>
-    <meta charset="UTF-8" />    <!--codificación que soporta lenguaje español por los caracterer especiales acento,ñ,etc--> 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Learn Html</title>   <!--titulo de la pestaña--> 
-  </head>
-  <body>
+<html lang="es">
+<!--lang=lenguaje es=español en conjunto con utf-8 en=english  -->
 
-<H2 align="center">Inicios de creación de una página html</H2>   
-<p>He decido colocar lo poco que he aprendido en esta página a manera de práctica, así para futuras consultas ya tendré una guia</p><br>
-<dl>
-<dt>Doctype: </dt>
-<dd> se usa para definir la version del html a usar en este caso seria html5</dd><br>
-<dt>Significado del lang: </dt>
-  <dd> es el estilo del lenguaje que se va a utilizar en la página, por ejemplo: lang="es" (para español) lang="en" (para ingles)</dd><br>
+<head>
+  <meta charset="UTF-8" />
+  <!--codificación que soporta lenguaje español por los caracterer especiales acento,ñ,etc-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learn Html</title>
+  <!--titulo de la pestaña-->
+</head>
+
+<body>
+
+  <H2 align="center">Inicios de creación de una página html</H2>
+  <p>He <em> "decido colocar" </em>lo poco que he aprendido en esta página a manera de práctica, así para futuras
+    consultas ya tendré una guia</p><br>
+  <dl>
+    <dt>Doctype: </dt>
+    <dd> se usa para definir la version del html a usar en este caso seria html5</dd><br>
+    <dt>Significado del lang: </dt>
+    <dd> es el estilo del lenguaje que se va a utilizar en la página, por ejemplo: lang="es" (para español) lang="en"
+      (para ingles)</dd><br>
 
 
-</dl>
+  </dl>
 
-<hr>
-<h2><ins> Contenido del tag head: </ins></h2>
-<!-- el tag dl es utilizado para hacer una lista de definiciones y dentro de ella se coloca dt (a definir) y con el tag dd (la definición) -->
-<dl>
+  <hr>
+  <h2><ins> Contenido del tag head: </ins></h2>
+  <!-- el tag dl es utilizado para hacer una lista de definiciones y dentro de ella se coloca dt (a definir) y con el tag dd (la definición) -->
+  <dl>
     <dt>mata charset="utf-8": </dt>
-  <dd>Es la codificación utilizada para indicarle a la página que se usaran caracteres especiales como acentos, la letra ñ, etc. Y es importante tomar en cuenta el tipo de lenguaje definido al inicio (lang)</dd><br>
-<dt>tile:</dt>
-<dd> Se coloca dentro del head y es la que le coloca a la pestaña en el navegador un titulo</dd>
-</dl>
-<hr>
-    <!--esto es un comentario-->
-   <h1><ins>Estilo de texto</ins></h1>
-   <p> se usan los tag "b" y "strong" para colocar el texto en el estilo negrita, <br>Para hacer el texto con estilo cursiva se usa el tag "i"<br> texto como borrado se usa el tag "del" </p>
-    <!--¿como puedo colocar una etiqueta y mostrarla en el navegador?  -->
-   <p><b>Esto está en negrita <b> </p>
-    <p><strong>Esto también es negrita pero con el tag strong</strong></p>
-    <p><i>Esto es cursiva</i></p>
-    <p><del>Este texto es de borrado</del></p>
-    <p><small>Es un texto pequeño con el tag small</small></p>
-    <p><big>Es un texto con el tag big</big></p>
-<hr>
-    <h2 align="center"><ins>Estilos de Encabezados</ins> </h2>
-    
-    <!-- siendo h1 el estilo de mayor tamaño -->
-    <p>Para usar el encabezado hay que tomar en cuenta que son 6 maneras diferentes, siendo el h1 el texto más grande, todas tienen su tag de cierre. como por ejemplo: </p><br>
-    <h1>primer estilo con h1</h1>  
+    <dd>Es la codificación utilizada para indicarle a la página que se usaran caracteres especiales como acentos, la
+      letra ñ, etc. Y es importante tomar en cuenta el tipo de lenguaje definido al inicio (lang)</dd><br>
+    <dt>tile:</dt>
+    <dd> Se coloca dentro del head y es la que le coloca a la pestaña en el navegador un titulo</dd>
+  </dl>
+  <hr>
+  <!--esto es un comentario-->
+  <h1><ins>Estilo de texto</ins></h1>
+  <p> se usan los tag "b" y "strong" para colocar el texto en el estilo negrita, <br>Para hacer el texto con estilo
+    cursiva se usa el tag "i"<br> texto como borrado se usa el tag "del" </p>
+  <!--¿como puedo colocar una etiqueta y mostrarla en el navegador?  -->
+  <p><b>Esto está en negrita <b> </p>
+  <p><strong>Esto también es negrita pero con el tag strong</strong></p>
+  <p><i>Esto es cursiva</i></p>
+  <p><del>Este texto es de borrado</del></p>
+  <p><small>Es un texto pequeño con el tag small</small></p>
+  <p><big>Es un texto con el tag big</big></p>
+  <hr>
+  <h2 align="center"><ins>Estilos de Encabezados</ins> </h2>
+
+  <!-- siendo h1 el estilo de mayor tamaño -->
+  <p>Para usar el encabezado hay que tomar en cuenta que son 6 maneras diferentes, siendo el h1 el texto más grande,
+    todas tienen su tag de cierre. como por ejemplo: </p><br>
+  <h1>primer estilo con h1</h1>
   <h2>segundo estilo con h2</h2>
-    <h3>tercer estilo con h3</h3>
-    <h4>cuarto estilo con h4</h4>
-    <h5>quinto estilo con h5</h5>
-    <h6>sexto estilo con h6</h6>
-<hr>  
-    <h2 align="center" > <ins> Parráfos </ins></h2>
-    <p><small> al colocar un párrafo se le puede especificar el alineado con el atributo "align" y con el "valor" de center, left, right. dependiendo de lo que se quiera hacer, y para usar un texto ficticio se puede usar lorem30, el 30 es la cantidad de palabras a usar, como por ejemplo: </small> </p>
-    
-    <p align="center">
-      
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est eveniet ex
-        deleniti voluptatum dignissimos corrupti atque dolores quidem dolorum,
-        fuga iure tenetur delectus sit nulla vel nemo omnis iusto odit eaque
-        amet vero quae eum laudantium. Rem qui molestias mollitia enim debitis
-        commodi ratione iusto.
-      
-    </p><br><br>
-<hr>
-    <h2 align="center"><ins>Línea horizontal</ins></h2>
-    <p> para colocar una linea horizontal se usa el tag hr esta no tiene etiqueta de cierre, también se puede colocar dimensión como el ancho de la línea con el atributos width y centrado con el atributo align. como por ejemplo: <br> se ha creado una linea con las caracteristicas de ancho 50px y alineado a la derecha: </p>
+  <h3>tercer estilo con h3</h3>
+  <h4>cuarto estilo con h4</h4>
+  <h5>quinto estilo con h5</h5>
+  <h6>sexto estilo con h6</h6>
+  <hr>
+  <h2 align="center"> <ins> Parráfos </ins></h2>
+  <p><small> al colocar un párrafo se le puede especificar el alineado con el atributo "align" y con el "valor" de
+      center, left, right. dependiendo de lo que se quiera hacer, y para usar un texto ficticio se puede usar lorem30,
+      el 30 es la cantidad de palabras a usar, como por ejemplo: </small> </p>
 
-<hr width="50px" align="right" />
-<br>
-<br>
-<hr>
-<h2 align="center"><ins>Insertado de imagen</ins></h2><br>
-<p>Para colocar una imagen se debe usar el tag img, esta no tiene etiqueta de cierre y se le pueden colocar los siguientes parametros que definiré a continuación: <br> //<img src="" alt="" height="20%" width="20%" >// 
-<!-- verificar como puedo colocar una etiqueta y mostrarla en el buscador -->
-<dl>
-  <dt>src:</dt>
-  <dd>Es la dirección o el nombre de la imagen a colocar</dd>
-</dl>
+  <p align="center">
 
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est eveniet ex
+    deleniti voluptatum dignissimos corrupti atque dolores quidem dolorum,
+    fuga iure tenetur delectus sit nulla vel nemo omnis iusto odit eaque
+    amet vero quae eum laudantium. Rem qui molestias mollitia enim debitis
+    commodi ratione iusto.
 
-</p>
+  </p><br><br>
+  <hr>
+  <h2 align="center"><ins>Línea horizontal</ins></h2>
+  <p> para colocar una linea horizontal se usa el tag hr esta no tiene etiqueta de cierre, también se puede colocar
+    dimensión como el ancho de la línea con el atributos width y centrado con el atributo align. como por ejemplo: <br>
+    se ha creado una linea con las caracteristicas de ancho 50px y alineado a la derecha: </p>
 
-<img src="img\arbol.jpeg" height="10%" width="10%" border="1px" alt="arbol" />
-<img src="img\56d1c11d15fcf7e6c25799014d27b047.jpg" height="10%" width="10%" alt="marianyela en brazos">
-<img src="img\1586400213344.jpg" height="10%" width="10%" border="1px" alt="arbol" />
-<img src="img\IMG-20191017-WA0059.jpg " height="10%" width="10%" border="1px" alt="arbol" />
-<img src="img\IMG-20191017-WA0061.jpg " height="10%" width="10%" border="1px" alt="arbol" />
-<img src="img\IMG-20200320-WA0030.jpg" height="10%" width="10%" border="1px" alt="arbol" />
-
-
-<hr> <!--listas desordenadas -->
-<h2><ins>Lista sin numeración</ins> </h2>
-<p>Para crear una lista sin numeración se usa ul y con sus items li, de igual manera se puede colocar un enlace dentro de un item. </p>
-<ul>
-  <li>Noel</li>
-  <li>Anyela</li>
-  <li>Marianyela</li>
-  <!-- enlaces -->
-  <li>
-    <a href="https://github.com/NoelTejeda" target="_blank" > Mi pagina en github </a></li> 
-</ul>
-
-
-<hr>
-<h2><ins>Listas con numeración</ins></h2>
-<p>Para crear una lista con numeración se usa ol y los item siguen siendo li para cada uno de ellos</p>
-   <H3>Integrantes:</H3>
-    <ol>     <!--listas ordenadas con numación -->
-        <li>Noel Tejeda 14.680.389</li>
-        <li>Jesús Romero 27.796.166</li>
-        <li>Kleber Cabezas 25.172.155</li>
-        <li>Jhoyver Lovera 24.523.858</li>
-    </ol>
-<hr>
-<h2><ins>Listas de definiciones</ins></h2>
-<p>se define con dl (definition list) <br> dt (definition term) <br> dd (definition description)  por ejemplo: </p>
-
-
-<img src="listadef.JPG" alt="lista de definiciones">
-<dl>
-  <dt>¿Con que tag se define un formulario?</dt>
-  <dd>con el tag form (apertura y cierre)</dd>
-
-</dl>
-<hr>
-<h2><ins>Creación de tablas</ins></h2>
-<p>Se inician con el tag "table", se dividen en filas con tr, y se dividen en columnas con td. ejemplo:</p>
-
-<img src="img\scriptabla.jpg" alt="">
-
-
-</p>
-<table cellspacing="10" cellpadding="20" border="2">
-  <tr align="left">
-    <caption>Ejemplo de tabla</caption>
-    <th>Lunes</th>
-    <td>Martes</td>
-    <td>Miercoles</td>
-    <th>Jueves</th>
-  </tr>
-  <tr>
-    <td colspan="3" bgcolor="yellow" align="center">Html5</td>
-    <td>bandit</td>
-    <td>descanso</td>
-  </tr>
-
-  <tr>
-    <td>Linux</td>
-    <td>Inglés</td>
-    <td align="center">Php</td>
-  </tr>
-  <tr>
-    <td>ahora</td>
-    <td>prueba</td>
-    <td>trece</td>
-  </tr>
-</table>
-
-
-<p><i>definiciones de atributos: <br> </i>
+  <hr width="50px" align="right" />
   <br>
-  <ins>cellspacing</ins>= espacio entre celdas <br><ins>cellpading</ins>= espacio que debe dejar alrededor del texto dentro de la celda <br><ins>bordercolor</ins> = color de borde de tabla ejm: "#0000FF" <br><ins>border</ins>= ancho del borde <br><ins>colspan</ins>= agrupa columnas <br><ins>rowspan</ins>= agrupa filas <br><ins>th</ins>= es semejante al tag td y funciona igual, solo que el contenido es considerado un encabezado de la tabla, po lo que se creará en negrita y centrado sin indicarselo, es útil para crear temas principales. <br><ins>bgcolor</ins>= le agrega color de fondo a la celda. ejm: td bgcolor="red"> <br><ins>caption</ins>= es usado para colocar un titulo en la tabla, en la parte superior, también se le puede colocar alineado: ejm align="bottom" <br><br>para crear filas se usa tr y para alinear verticalmente su contenido se usa el atributo valign=(top,middle,bottom) y para alinear horizontalmente se usa el atributo align=(right,center,left,justify)
-</p>
-<hr>
-<h2><ins>Hipervinculos</ins></h2>
-<p>se pueden hacer hipervinculos a textos e imágenes que le permitan al usuario hacer clich en ellos <br>se definien con la etiqueta (a) (/a) y con el atributo href="https://wwww.esto.com" target="blank"
+  <br>
+  <hr>
+  <h2 align="center"><ins>Insertado de imagen</ins></h2><br>
+  <p>Para colocar una imagen se debe usar el tag img, esta no tiene etiqueta de cierre y se le pueden colocar los
+    siguientes parametros que definiré a continuación: <br> //<img src="" alt="" height="20%" width="20%">//
+    <!-- verificar como puedo colocar una etiqueta y mostrarla en el buscador -->
+  <dl>
+    <dt>src:</dt>
+    <dd>Es la dirección o el nombre de la imagen a colocar</dd>
+  </dl>
 
-<p>
-  valores del target <br>blank: enlace abre en otra ventana <br>self: por defecto del parametro target, en la misma ventana <br>ejemplo:
-  <img src="img\hipervinculo.JPG" alt=""><br> <br>mailto: dirige a una dirección electronica ejemplo:
 
-  <a href="mailto:correo@correo.com">correo.com</a>
-<img src="img\mailto.JPG" alt="">
-</p>
-</p>
-<hr>
-<h2><ins>Elementos de un formulario</ins></h2>
+  </p>
 
-<p>los formularios en una página web permiten al usuario introducir datos para que sean enviados a un seridor para su procesamiento <br> <br> se definen con la etiqueta de apertura y cierre y con el atributo "action" el cual es usado para darle la dirección de destino a algun servidor </p>
+  <img src="img\arbol.jpeg" height="10%" width="10%" border="1px" alt="arbol" />
+  <img src="img\56d1c11d15fcf7e6c25799014d27b047.jpg" height="10%" width="10%" alt="marianyela en brazos">
+  <img src="img\1586400213344.jpg" height="10%" width="10%" border="1px" alt="arbol" />
+  <img src="img\IMG-20191017-WA0059.jpg " height="10%" width="10%" border="1px" alt="arbol" />
+  <img src="img\IMG-20191017-WA0061.jpg " height="10%" width="10%" border="1px" alt="arbol" />
+  <img src="img\IMG-20200320-WA0030.jpg" height="10%" width="10%" border="1px" alt="arbol" />
 
-<form action=""></form>
- 
-<hr>    
-  
-<p><h2><ins> etiquetas semanticas:</ins></h2> En este artículo vamos a ver las etiquetas semánticas de HTML5, como HEADER, ARTICLE, SECTION, ASIDE, FOOTER, NAV, FIGURE, TIME, ...
 
-  Lo primero que conviene remarcar es que HTML5 no es un lenguaje nuevo en contraposición a HTML, sino una nueva versión del mismo lenguaje. También hay que recordar que HTML5 incorpora cambios en profundidad que los navegadores antiguos no son capaces de mostrar, por lo tanto que hay que tener actualizado el navegador.
-  
-  Las etiquetas semánticas ayudan a definir la estructura del documento y permiten que las páginas web sean mejor indexadas por los buscadores.
-  
-  Una etiqueta se califica como semántica si tiene que ver el significado, es decir, si nos informa sobre lo que trata su contenido. Por ejemplo, la etiqueta SECTION nos dice que contiene una sección o capítulo dentro de la página. Frente a las etiquetas semánticas tenemos otros tipos de etiquetas como las que afectan al formato, como UL, a multimedia, como VIDEO, etc.
-  
+  <hr>
+  <!--listas desordenadas -->
+  <h2><ins>Lista sin numeración</ins> </h2>
+  <p>Para crear una lista sin numeración se usa ul y con sus items li, de igual manera se puede colocar un enlace dentro
+    de un item. </p>
+  <ul>
+    <li>Noel</li>
+    <li>Anyela</li>
+    <li>Marianyela</li>
+    <!-- enlaces -->
+    <li>
+      <a href="https://github.com/NoelTejeda" target="_blank"> Mi pagina en github </a>
+    </li>
+  </ul>
+
+
+  <hr>
+  <h2><ins>Listas con numeración</ins></h2>
+  <p>Para crear una lista con numeración se usa ol y los item siguen siendo li para cada uno de ellos</p>
+  <H3>Integrantes:</H3>
+  <ol>
+    <!--listas ordenadas con numación -->
+    <li>Noel Tejeda 14.680.389</li>
+    <li>Jesús Romero 27.796.166</li>
+    <li>Kleber Cabezas 25.172.155</li>
+    <li>Jhoyver Lovera 24.523.858</li>
+  </ol>
+  <hr>
+  <h2><ins>Listas de definiciones</ins></h2>
+  <p>se define con dl (definition list) <br> dt (definition term) <br> dd (definition description) por ejemplo: </p>
+
+
+  <img src="listadef.JPG" alt="lista de definiciones">
+  <dl>
+    <dt>¿Con que tag se define un formulario?</dt>
+    <dd>con el tag form (apertura y cierre)</dd>
+
+  </dl>
+  <hr>
+  <h2><ins>Creación de tablas</ins></h2>
+  <p>Se inician con el tag "table", se dividen en filas con tr, y se dividen en columnas con td. ejemplo:</p>
+
+  <img src="img\scriptabla.jpg" alt="">
+
+
+  </p>
+  <table cellspacing="10" cellpadding="20" border="2">
+    <tr align="left">
+      <caption>Ejemplo de tabla</caption>
+      <th>Lunes</th>
+      <td>Martes</td>
+      <td>Miercoles</td>
+      <th>Jueves</th>
+    </tr>
+    <tr>
+      <td colspan="3" bgcolor="yellow" align="center">Html5</td>
+      <td>bandit</td>
+      <td>descanso</td>
+    </tr>
+
+    <tr>
+      <td>Linux</td>
+      <td>Inglés</td>
+      <td align="center">Php</td>
+    </tr>
+    <tr>
+      <td>ahora</td>
+      <td>prueba</td>
+      <td>trece</td>
+    </tr>
+  </table>
+
+
+  <p><i>definiciones de atributos: <br> </i>
+    <br>
+    <ins>cellspacing</ins>= espacio entre celdas <br><ins>cellpading</ins>= espacio que debe dejar alrededor del texto
+    dentro de la celda <br><ins>bordercolor</ins> = color de borde de tabla ejm: "#0000FF" <br><ins>border</ins>= ancho
+    del borde <br><ins>colspan</ins>= agrupa columnas <br><ins>rowspan</ins>= agrupa filas <br><ins>th</ins>= es
+    semejante al tag td y funciona igual, solo que el contenido es considerado un encabezado de la tabla, po lo que se
+    creará en negrita y centrado sin indicarselo, es útil para crear temas principales. <br><ins>bgcolor</ins>= le
+    agrega color de fondo a la celda. ejm: td bgcolor="red"> <br><ins>caption</ins>= es usado para colocar un titulo en
+    la tabla, en la parte superior, también se le puede colocar alineado: ejm align="bottom" <br><br>para crear filas se
+    usa tr y para alinear verticalmente su contenido se usa el atributo valign=(top,middle,bottom) y para alinear
+    horizontalmente se usa el atributo align=(right,center,left,justify)
+  </p>
+  <hr>
+  <h2><ins>Hipervinculos</ins></h2>
+  <p>se pueden hacer hipervinculos a textos e imágenes que le permitan al usuario hacer clich en ellos <br>se definien
+    con la etiqueta (a) (/a) y con el atributo href="https://wwww.esto.com" target="blank"
+
+  <p>
+    valores del target <br>blank: enlace abre en otra ventana <br>self: por defecto del parametro target, en la misma
+    ventana <br>ejemplo:
+    <img src="img\hipervinculo.JPG" alt=""><br> <br>mailto: dirige a una dirección electronica ejemplo:
+
+    <a href="mailto:correo@correo.com">correo.com</a>
+    <img src="img\mailto.JPG" alt="">
+  </p>
+  </p>
+  <hr>
+  <h2><ins>Elementos de un formulario</ins></h2>
+
+  <p>los formularios en una página web permiten al usuario introducir datos para que sean enviados a un seridor para su
+    procesamiento <br> <br> se definen con la etiqueta de apertura y cierre y con el atributo "action" el cual es usado
+    para darle la dirección de destino a algun servidor </p>
+
+  <form action=""></form>
+
+  <hr>
+
+  <p>
+  <h2><ins> etiquetas semanticas:</ins></h2> En este artículo vamos a ver las etiquetas semánticas de HTML5, como
+  HEADER, ARTICLE, SECTION, ASIDE, FOOTER, NAV, FIGURE, TIME, ...
+
+  Lo primero que conviene remarcar es que HTML5 no es un lenguaje nuevo en contraposición a HTML, sino una nueva versión
+  del mismo lenguaje. También hay que recordar que HTML5 incorpora cambios en profundidad que los navegadores antiguos
+  no son capaces de mostrar, por lo tanto que hay que tener actualizado el navegador.
+
+  Las etiquetas semánticas ayudan a definir la estructura del documento y permiten que las páginas web sean mejor
+  indexadas por los buscadores.
+
+  Una etiqueta se califica como semántica si tiene que ver el significado, es decir, si nos informa sobre lo que trata
+  su contenido. Por ejemplo, la etiqueta SECTION nos dice que contiene una sección o capítulo dentro de la página.
+  Frente a las etiquetas semánticas tenemos otros tipos de etiquetas como las que afectan al formato, como UL, a
+  multimedia, como VIDEO, etc.
+
   El esquema de una página con etiquetas semánticas podría ser el siguiente.
-<br><br>
+  <br><br>
   <img src="img/estructura-html5.jpg" alt="">
-</p>
-  
- </body>
+  </p>
+
+</body>
+
 </html>
